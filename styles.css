@@ -1,0 +1,73 @@
+
+
+body {
+    margin: 0;
+    height: 100vh;
+    position: relative;
+    font-family: Poppins;
+}
+
+/* Top centered heading */
+#heading1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Perfect center */
+#dragndrop {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: aliceblue;
+    border: 2px dashed;
+    border-radius: 15px;
+
+    height: 50vh;
+    width: 75vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#dragndrop.dragover {
+    background-color: #dbefff;
+    border-color: #007bff;
+}
+
+
+/* Button */
+#AddFileButton {
+    margin-top: 20px;
+    padding: 8px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: cadetblue;
+    border: none;
+    cursor: pointer;
+}
+
+#SubmitButton {
+    margin-top: 20px;
+    padding: 8px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: cadetblue;
+    border: none;
+    cursor: pointer;
+}
+
+#overallQuality{
+    position: relative;
+    width: auto;
+    border: 2px solid blue;
+    display: flex;
+}
+
+#overallQualityBar{
+    position: absolute;
+    
+}
